@@ -26,7 +26,7 @@ education_years = st.number_input('Years to Accumulate Education Fund', min_valu
 annual_inflation_rate = st.number_input('Annual Inflation Rate (%)', min_value=0.0, value=7.0) / 100
 investment_return_rate = st.number_input('Annual Investment Return Rate (%)', min_value=0.0, value=5.0) / 100
 monthly_expenses = st.number_input('Monthly Expenses (AED)', min_value=0, value=13000)
-current_income = st.number_input('Current Monthly Income (AED)', min_value=0, value=25000)
+current_income = st.number_input('Current Monthly Income (AED)', min_value=0)
 
 # Calculations
 downpayment = house_price * downpayment_percentage
