@@ -1,6 +1,3 @@
-Here's a sample README file for your financial planning calculator app:
-
----
 
 # Financial Planning Calculator
 
